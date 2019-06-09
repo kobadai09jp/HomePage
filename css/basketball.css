@@ -1,0 +1,196 @@
+@charset "UTF-8";
+body {
+  font-family: adiHaus,'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,Osaka,'ＭＳ Ｐゴシック','MS PGothic',sans-serif;
+  line-height: 1;
+  width: 100%; }
+
+a {
+  text-decoration: none; }
+
+h1, h2 {
+  font-weight: bold; }
+
+h2 {
+  padding: 80px 0 20px;
+  font-size: 46px;
+  text-align: center; }
+
+.btn_wrap {
+  width: 260px;
+  height: 48px;
+  background-color: #000;
+  text-align: center;
+  display: inline-block; }
+  .btn_wrap a {
+    line-height: 48px;
+    display: inline-block;
+    color: #fff;
+    font-weight: bold; }
+
+.text-container {
+  position: absolute;
+  bottom: 20%;
+  left: 8%; }
+
+.lp_hero_top {
+  position: relative; }
+  .lp_hero_top img {
+    vertical-align: bottom; }
+  .lp_hero_top .btn_wrap {
+    position: absolute;
+    bottom: 30%;
+    left: 8%; }
+
+.lpc-single-card {
+  position: relative; }
+  .lpc-single-card img {
+    vertical-align: top; }
+  .lpc-single-card .text-container {
+    color: #fff; }
+    .lpc-single-card .text-container h1 {
+      font-size: 30px;
+      letter-spacing: 1.6;
+      margin-bottom: 20px; }
+    .lpc-single-card .text-container p {
+      margin-bottom: 20px; }
+    .lpc-single-card .text-container .btn_wrap {
+      background-color: #fff; }
+    .lpc-single-card .text-container a {
+      color: #000; }
+
+.lp-featureCarousel .item {
+  position: relative; }
+  .lp-featureCarousel .item .text-Containter h2 {
+    font-size: 36px;
+    color: #000; }
+  .lp-featureCarousel .item .text-Containter p {
+    margin-bottom: 20px; }
+  .lp-featureCarousel .item .marquee h2, .lp-featureCarousel .item .marquee p {
+    color: #fff;
+    text-align: left; }
+  .lp-featureCarousel .item .marquee .btn_wrap {
+    background-color: #fff; }
+  .lp-featureCarousel .item .marquee a {
+    color: #000; }
+
+.lp-featureBottom {
+  position: relative; }
+  .lp-featureBottom .text-container h2 {
+    font-size: 36px;
+    color: #fff;
+    text-align: left;
+    line-height: 1.2; }
+
+.list-card .lp-cateCardList {
+  display: flex;
+  padding: 30px 0;
+  justify-content: space-around; }
+  .list-card .lp-cateCardList .cateCard {
+    width: calc(100% / 3 - 30px);
+    text-align: center; }
+    .list-card .lp-cateCardList .cateCard li {
+      width: 100%;
+      list-style-type: none;
+      background-color: #000;
+      overflow: hidden; }
+      .list-card .lp-cateCardList .cateCard li img {
+        vertical-align: bottom;
+        overflow: hidden;
+        transition: all 5s ease-in-out;
+        width: 100%;
+        opacity: 1; }
+        .list-card .lp-cateCardList .cateCard li img:hover {
+          transform: scale(1.5);
+          opacity: 0.6; }
+    .list-card .lp-cateCardList .cateCard .btn_wrap {
+      width: 250px;
+      background-color: #fff;
+      text-align: center;
+      position: relative;
+      bottom: 60px; }
+    .list-card .lp-cateCardList .cateCard a {
+      color: #000; }
+
+.lp-local-FooterLink {
+  text-align: center;
+  padding: 0 7.5px 0; }
+  .lp-local-FooterLink h3 {
+    font-size: 28px;
+    margin-top: 32px;
+    font-weight: bold; }
+  .lp-local-FooterLink ul {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    list-style-type: none;
+    justify-content: space-around; }
+  .lp-local-FooterLink li {
+    width: 33.33%;
+    text-align: center;
+    margin: 80px auto 0; }
+    .lp-local-FooterLink li:not(:last-child) {
+      border-right: 1px solid #ebebeb;
+      padding: 8px 0;
+      margin-bottom: 45px; }
+  .lp-local-FooterLink a {
+    color: #000; }
+
+.lpc-snsList {
+  width: 100%; }
+  .lpc-snsList ul {
+    display: flex;
+    width: 70%;
+    margin: 0 auto;
+    justify-content: space-around; }
+  .lpc-snsList li {
+    list-style-type: none; }
+  .lpc-snsList a {
+    font-size: 20px;
+    color: #000;
+    display: inline-block; }
+  .lpc-snsList .fab {
+    color: #fff;
+    z-index: 10;
+    margin-right: 20px; }
+  .lpc-snsList .icon-inner {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: #000;
+    z-index: -10; }
+  .lpc-snsList .facebook-link, .lpc-snsList .twitter-link, .lpc-snsList .instagram-link {
+    position: relative; }
+  .lpc-snsList .inner_fa {
+    position: absolute;
+    bottom: -50%;
+    left: -10%; }
+  .lpc-snsList .inner_twi {
+    position: absolute;
+    bottom: -50%;
+    left: -13%; }
+  .lpc-snsList .inner_ins {
+    position: absolute;
+    bottom: -50%;
+    left: -10%; }
+
+.lpc-hushTag {
+  padding: 90px 0 80px; }
+  .lpc-hushTag p {
+    font-size: 20px;
+    text-align: center;
+    font-weight: bold; }
+
+.pc {
+  display: block !important; }
+
+.mobile {
+  display: none !important; }
+
+@media screen and (max-width: 960px) {
+  .pc {
+    display: none !important; }
+
+  .mobile {
+    display: block !important; } }
+
+/*# sourceMappingURL=basketball.css.map */

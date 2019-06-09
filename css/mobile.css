@@ -1,0 +1,93 @@
+@charset "UTF-8";
+body {
+  font-family: AdiHaus,'ヒラギノ角ゴ Pro W3',"Hiragino Kaku Gothic Pro","メイリオ","MS P ゴシック",Arial,sans-serif;
+  font-size: 62.5%; }
+
+a {
+  text-decoration: none; }
+
+.btn-wrp {
+  width: 250px;
+  background-color: #fff;
+  text-align: center; }
+
+.btn {
+  display: inline-block;
+  color: #000;
+  font-weight: bold;
+  text-align: center;
+  font-size: 15px;
+  padding: 15px 0;
+  position: relative; }
+
+.btn:after {
+  content: '\02192';
+  font-size: 1.4em;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  right: -35px; }
+
+.lp-hero {
+  position: relative; }
+  .lp-hero video {
+    width: 100%;
+    height: 73.463268vh;
+    object-fit: cover; }
+  .lp-hero .lp-textContainer {
+    position: absolute;
+    padding: 15px;
+    bottom: 0;
+    left: 0; }
+  .lp-hero h1, .lp-hero h2 {
+    font-size: 33px;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    text-shadow: 1px 1px #000; }
+  .lp-hero p {
+    font-size: 14px;
+    line-height: 1.6;
+    color: #fff;
+    text-shadow: 1px 1px #000; }
+  .lp-hero .btn-wrp {
+    margin-top: 12px; }
+
+.lp-statement {
+  padding: 30px 40px 12px;
+  text-align: center; }
+  .lp-statement img {
+    width: 124px; }
+  .lp-statement p {
+    margin-top: 24px;
+    font-size: 14px; }
+
+.lp-cards {
+  padding: 12px;
+  display: flex;
+  flex-direction: column; }
+  .lp-cards .lp-card {
+    padding: 12px;
+    height: 504px;
+    width: 100%;
+    box-sizing: border-box; }
+    .lp-cards .lp-card img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover; }
+
+.lp-news-later .textContainter {
+  padding: 15px; }
+.lp-news-later h2 {
+  font-size: 18px;
+  font-weight: bold; }
+.lp-news-later .btn-wrp {
+  width: 300px;
+  background-color: #000;
+  text-align: center;
+  margin-top: 20px; }
+.lp-news-later .btn {
+  display: inline-block;
+  color: #fff; }
+
+/*# sourceMappingURL=mobile.css.map */
